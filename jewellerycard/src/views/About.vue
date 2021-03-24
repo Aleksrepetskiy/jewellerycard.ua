@@ -1,8 +1,5 @@
 <template>
-  <div class="container">
-    <Header />
-    <main class="main">
-      <div class="wrapper wrapper--pages">
+    <div class="wrapper wrapper--pages">
         <section class="about">
           <h2 class="h2">Ювелирный Дом</h2>
           <ul class="about__list">
@@ -186,22 +183,7 @@
             </div>
           </div>
         </section>
-      </div>
-    </main>
-    <Footer />
-  </div>
+    </div>
 </template>
 
-<script>
-import Footer from "@/components/Footer.vue";
-import Header from "@/components/Header.vue";
 
-export default {
-  name: "Home",
-  components: {
-    //HelloWorld,
-    Footer,
-    Header,
-  },
-};
-</script>

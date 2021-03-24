@@ -18,10 +18,7 @@ body {
 	line-height: 1.2em;
 	width: 100%;
 	min-width: 320px;
-	min-height: 100vh;
 	-webkit-font-smoothing: antialiased;
-	display: flex;
-	flex-direction: column;
 }
 .h2 {
 	color: #252571;
@@ -62,7 +59,9 @@ p:last-child {
 }
 
 .container {
-	flex-grow: 1;
+	height: 100%;
+	display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 .wrapper {

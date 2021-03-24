@@ -2,7 +2,7 @@
   <header class="header">
     <div class="logo">
       <div class="wrapper">
-        <a class="logo__link" href="/ru/"
+        <a class="logo__link" href="/"
           ><img class="logo__img" src="/img/svg/logo.svg?v=1" alt="logo"
         /></a>
       </div>
@@ -17,7 +17,7 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="/ru/about" class="menu__link">Ювелирный Дом</a>
+              <router-link to="/about">Ювелирный Дом</router-link>
             </li>
             <li class="menu__item">
               <a href="/ru/high-jewellery" class="menu__link">High Jewellery</a>
@@ -29,9 +29,10 @@
               <a href="/ru/collections" class="menu__link">Коллекция</a>
             </li>
             <li class="menu__item">
-              <a href="/ru/contacts" class="menu__link">Контакты</a>
+              <router-link to="/contact">Контакты</router-link>
             </li>
           </ul>
+          <router-view />
         </nav>
         <div class="lang">
           <div class="lang__list">
@@ -63,18 +64,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.menu__item a {
+  color: #434343;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: block;
+  padding: 26px 19%;
+  white-space: nowrap;
 }
 </style>

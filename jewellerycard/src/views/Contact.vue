@@ -1,7 +1,4 @@
 <template>
-  <div class="container">
-    <Header />
-    <main class="main">
       <div class="wrapper wrapper--pages">
         <section class="contacts">
           <h2 class="h2">Контакты:</h2>
@@ -161,21 +158,5 @@
           </div>
         </section>
       </div>
-    </main>
-    <Footer />
-  </div>
 </template>
 
-<script>
-import Footer from "@/components/Footer.vue";
-import Header from "@/components/Header.vue";
-
-export default {
-  name: "Home",
-  components: {
-    //HelloWorld,
-    Footer,
-    Header,
-  },
-};
-</script>
