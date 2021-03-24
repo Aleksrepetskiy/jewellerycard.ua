@@ -1,0 +1,39 @@
+@import "variables.scss";
+/* ============= BEGIN icons ============= */
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sprite {
+  display: inline-block;
+}
+
+.svg {
+  display: inline-block;
+  vertical-align: middle;
+
+  img {
+    display: inline-block;
+  }
+}
+.svg-heart {
+  width: 27px;
+  height: 28px;
+  background: url() no-repeat;
+}
+
+// [class^="icon-"], [class*=" icon-"] {
+//   font-family: @fontIcons;
+//   speak: none;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+
+/* ============= END icons ============= */

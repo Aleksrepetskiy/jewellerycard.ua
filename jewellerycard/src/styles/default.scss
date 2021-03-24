@@ -1,0 +1,176 @@
+
+.link {
+	text-decoration: none;
+	color: #6E97FF;
+	border-bottom: 1px dotted #6E97FF;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
+
+body {
+	font-size: 14px;
+	// font-family: @OpenSans;
+	// font-weight: @fw-regular;
+	line-height: 1.2em;
+	width: 100%;
+	min-width: 320px;
+	min-height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	display: flex;
+	flex-direction: column;
+}
+.h2 {
+	color: #252571;
+	// font-family: @fontPlayFayr;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin-bottom: 25px;
+}
+.h3 {
+	color: #252571;
+	// font-family: @fontPlayFayr;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin-bottom: 25px;
+}
+.h4 {
+	color: #252571;
+	// font-family: @fontPlayFayr;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+}
+p {
+	color: #434343;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.7em;
+	margin: 20px 0;
+}
+p:first-child {
+	margin-top: 0;
+}
+p:last-child {
+	margin-bottom: 0;
+}
+
+.container {
+	flex-grow: 1;
+}
+
+.wrapper {
+	max-width: 1220px;
+	min-width: 320px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.wrapper--pages {
+	padding-top: 45px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+.h1 {
+	color: black;
+	// font-family: @fontPlayFayr;
+	font-size: 90px;
+	font-weight: 400;
+	line-height: 1.2em;
+}
+.row {
+	display: flex;
+}
+.col8 {
+	width: 68%;
+	max-width: 800px;
+}
+.col6 {
+	width: 50%;
+	max-width: 600px;
+}
+.middle {
+	margin: 0 auto;
+}
+.col6.middle {
+	margin: 0 auto;
+}
+.col4 {
+	width: 34%;
+	max-width: 400px
+}
+.col12 {
+	width: 100%;
+
+}
+.ul {
+	text-align: left;
+	margin-left: 90px;
+
+	.li {
+		color: #434343;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.7em;
+		position: relative;
+		padding-left: 15px;
+		&::before {
+			content: '';
+			width: 6px;
+			height: 6px;
+			background-color: #d7d0bf;
+			position: absolute;
+			border-radius: 50%;
+			left: 0;
+			top: 10px;
+	
+		}
+	}
+}
+.left-justify {
+	text-align: justify;
+}
+.hide {
+	display: none;
+}
+.big-box {
+	height: 100px;
+	overflow: hidden;
+}
+mark {
+	color: #111;
+	background-color: transparent;
+}
+
+.ol {
+	list-style: none;
+	counter-reset: my-awesome-counter;
+}
+
+.ol .li {
+	counter-increment: my-awesome-counter;
+	color: #434343;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.7em;
+	position: relative;
+	padding-left: 15px;
+}
+
+.ol .li::before {
+	content: counter(my-awesome-counter) ". ";
+	color: #d7d0bf;
+	font-weight: bold;
+}
+.newses-img400 {
+	max-width: 400px;
+	margin: 0 auto;
+}
