@@ -100,7 +100,7 @@
     width: 30px;
     height: 30px;
     display: block;
-    background: white url(/img/svg/crown-top.svg) 0 0 no-repeat;
+    background: white url('../assets/img/svg/crown-top.svg') 0 0 no-repeat;
     position: absolute;
     left: 50%;
     margin-left: -10px;
@@ -653,7 +653,7 @@
 
   &__footer {
     padding: 8% 1%;
-    background: #fff url(/img/about/about_4.jpg) 0 0 no-repeat;
+    background: #fff url('../assets/img/about/about_4.jpg') 0 0 no-repeat;
     color: #cebca5;
 
     p,
@@ -1055,7 +1055,7 @@
 
 .lemon {
   padding: 80px 0 30px 0;
-  background: url(../img/lemonier2/description-img.jpg) no-repeat;
+  background: url('../assets/img/lemonier2/description-img.jpg') no-repeat;
   background-size: cover;
   &_flex {
     display: flex;
@@ -1241,7 +1241,7 @@
     letter-spacing: 15px;
   }
   &__box-lt-bg {
-    background-image: url(../img/lemonier2/crypto-img.jpg);
+    background-image: url(../assets/img/lemonier2/crypto-img.jpg);
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -1282,7 +1282,7 @@
 
 /* ============= Synergy ============= */
 .synergy {
-  background-image: url("../img/lemonier2/pict.png");
+  background-image: url("../assets/img/lemonier2/pict.png");
   position: relative;
   overflow: hidden;
   .owl-carousel .owl-dots {
@@ -1295,7 +1295,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background-image: url("../img/lemonier2/couple.png");
+    background-image: url("../assets/img/lemonier2/couple.png");
     background-repeat: no-repeat;
     background-position: 200px 200px;
     background-size: contain;
@@ -1479,7 +1479,7 @@
     position: relative;
   }
   &__box-lt-bg {
-    background-image: url(../img/lemonier2/legacy-img2.jpg);
+    background-image: url(../assets/img/lemonier2/legacy-img2.jpg);
     background-repeat: no-repeat;
     position: absolute;
     top: 0;

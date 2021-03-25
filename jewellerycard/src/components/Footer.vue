@@ -54,7 +54,7 @@ export default {
     width: 24px;
     height: 24px;
     display: block;
-    background: url(../assets/img/svg/crown.svg) 0 0 no-repeat;
+    background: url('../assets/img/svg/crown.svg') 0 0 no-repeat;
     position: absolute;
     left: 50%;
     margin-left: -10px;

@@ -24,10 +24,10 @@
               <div class="about__img">
                 <div class="row">
                   <div class="col6 hide">
-                    <img src="/img/about/about_1.jpg" alt="about1" />
+                    <img src="@/assets/img/about/about_1.jpg" alt="about1" />
                   </div>
                   <div class="col6">
-                    <img src="/img/about/about_2.jpg" alt="about1" />
+                    <img src="@/assets/img/about/about_2.jpg" alt="about1" />
                   </div>
                 </div>
               </div>
@@ -65,13 +65,13 @@
               <div class="about__img">
                 <div class="row">
                   <div class="col4 hide">
-                    <img src="/img/about/about_6.jpg" alt="about1" />
+                    <img src="@/assets/img/about/about_6.jpg" alt="about1" />
                   </div>
                   <div class="col4 hide">
-                    <img src="/img/about/about_7.jpg" alt="about1" />
+                    <img src="@/assets/img/about/about_7.jpg" alt="about1" />
                   </div>
                   <div class="col4">
-                    <img src="/img/about/about_5.jpg" alt="about1" />
+                    <img src="@/assets/img/about/about_5.jpg" alt="about1" />
                   </div>
                 </div>
               </div>
@@ -110,34 +110,34 @@
                 <div class="row-irregular grid-md">
                   <div class="row-irregular--left">
                     <div class="col-irregular8 grid__item grid__hide">
-                      <img class="lazy" src="/img/about/about_8.jpg" alt="" />
+                      <img class="lazy" src="@/assets/img/about/about_8.jpg" alt="" />
                     </div>
                     <div class="col-irregular6 grid__item">
-                      <img class="lazy" src="/img/about/about_10.jpg" alt="" />
+                      <img class="lazy" src="@/assets/img/about/about_10.jpg" alt="" />
                     </div>
                     <div class="col-irregular6 grid__item">
-                      <img class="lazy" src="/img/about/about_11.jpg" alt="" />
+                      <img class="lazy" src="@/assets/img/about/about_11.jpg" alt="" />
                     </div>
                   </div>
                   <div class="row-irregular--right">
                     <div class="col-irregular11 grid__item">
-                      <img class="lazy" src="/img/about/about_9.jpg" alt="" />
+                      <img class="lazy" src="@/assets/img/about/about_9.jpg" alt="" />
                     </div>
                   </div>
                 </div>
                 <div class="grid grid-sm">
                   <div class="row">
                     <div class="col4 hide grid__item">
-                      <img class="lazy" src="/img/about/about_11.jpg" alt="" />
+                      <img class="lazy" src="@/assets/img/about/about_11.jpg" alt="" />
                     </div>
                     <div class="col4 hide grid__item">
-                      <img class="lazy" src="/img/about/about_10.jpg" alt="" />
+                      <img class="lazy" src="@/assets/img/about/about_10.jpg" alt="" />
                     </div>
                     <div class="col4 grid__item">
-                      <img class="lazy" src="/img/about/about_8-1.jpg" alt="" />
+                      <img class="lazy" src="@/assets/img/about/about_8-1.jpg" alt="" />
                     </div>
                     <div class="col4 hide grid__item">
-                      <img class="lazy" src="/img/about/about_9-1.jpg" alt="" />
+                      <img class="lazy" src="@/assets/img/about/about_9-1.jpg" alt="" />
                     </div>
                   </div>
                 </div>

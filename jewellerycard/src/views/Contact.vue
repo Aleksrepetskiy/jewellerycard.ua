@@ -45,7 +45,7 @@
                 <div class="success" style="display: none">
                   <div class="success__box">
                     <div class="success__img">
-                      <img src="/img/contact/mail.png" alt="" />
+                      <img src="@/assets/img/contact/mail.png" alt="" />
                     </div>
                     <div class="success__text">
                       <span class="first-text"
@@ -137,13 +137,13 @@
           <div class="contacts__interier">
             <div class="row">
               <div class="col4">
-                <img src="/img/contact/contact_1.jpg" alt="" />
+                <img src="@/assets/img/contact/contact_1.jpg" alt="" />
               </div>
               <div class="col4">
-                <img src="/img/contact/contact_2.jpg" alt="" />
+                <img src="@/assets/img/contact/contact_2.jpg" alt="" />
               </div>
               <div class="col4 hide">
-                <img src="/img/contact/contact_3.jpg" alt="" />
+                <img src="@/assets/img/contact/contact_3.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@
           <h2 class="h2">Наши магазины в Украине</h2>
           <div class="row">
             <div class="col12">
-              <img src="/img/contact/map.jpg" alt="" />
+              <img src="@/assets/img/contact/map.jpg" alt="" />
             </div>
           </div>
         </section>

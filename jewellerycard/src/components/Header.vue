@@ -28,7 +28,7 @@
               <router-link to="/contact">Контакты</router-link>
             </li>
           </ul>
-          <router-view />
+          
         </nav>
         <div class="lang">
           <div class="lang__list">
