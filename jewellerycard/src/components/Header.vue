@@ -1,11 +1,7 @@
 <template>
   <header class="header">
     <div class="logo">
-      <div class="wrapper">
-        <a class="logo__link" href="/"
-          ><img class="logo__img" src="/img/svg/logo.svg?v=1" alt="logo"
-        /></a>
-      </div>
+      <div class="wrapper"><a class="logo__link" href="/"><img class="logo__img" src="@/assets/img/svg/logo.svg" alt="logo"/></a></div>
     </div>
     <div class="hamburger" id="hamburger">
       <span class="line"></span>

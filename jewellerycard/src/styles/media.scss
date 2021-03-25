@@ -62,13 +62,6 @@
 }
 
 @media screen and (max-width: 1130px) {
-  .footer {
-    .relations {
-      .relations__item + .relations__item {
-        margin: 10px 0 0 0;
-      }
-    }
-  }
   .crypto__collection {
     padding-left: 24%;
     &-ttl {
@@ -677,29 +670,6 @@
       margin-top: 30px;
     }
   }
-
-  .footer {
-    margin-top: 30px;
-    .wrapper {
-      flex-wrap: wrap;
-    }
-
-    &__logo {
-      width: 100%;
-      order: -1;
-      margin-bottom: 20px;
-    }
-
-    &__contacts,
-    &__copyrating {
-      width: 50%;
-    }
-
-    .icon {
-      margin-right: 5px;
-    }
-  }
-
   .contacts {
     .col8 {
       width: 100%;
@@ -1008,12 +978,6 @@
   .row-special2 .row-irregular--left .col-irregular6 {
     width: 100%;
   }
-
-  .footer__contacts, .footer__copyrating {
-    width: 100%;
-    text-align: center;
-  }
-
   .relations {
     &__item {
       display: block;
@@ -1025,11 +989,6 @@
       margin: 20px 0 0 0;
     }
   }
-
-  .footer__copyrating {
-    margin-top: 20px;
-  }
-
 }
 
 @media screen and (max-width: 450px) {
@@ -1112,11 +1071,6 @@
   .logo__img {
     max-width: 200px;
   }
-
-  .footer__box {
-    width: 100%;
-  }
-
   .slider__container {
     height: 220px;
   }
@@ -1166,17 +1120,6 @@
 }
 
 @media screen and (max-width: 370px) {
-  .footer {
-    &__box {
-      width: 100%;
-      text-align: center;
-    }
-
-    &__copyrating {
-      margin-top: 20px;
-    }
-  }
-
   .banner {
     height: 300px;
     &__title {
